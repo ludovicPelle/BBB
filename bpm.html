@@ -1,0 +1,39 @@
+<html>
+<head>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bpm.js"></script>
+  <link  rel="stylesheet" href="css/bpm.css">
+
+</head>
+<body>
+    <audio id="audio2" src="m2.wav" autostart="false" ></audio>
+    <audio id="audio1" src="m1.wav" autostart="false" ></audio>
+    <div id="form">
+    BPM <input type="number" value="120" id="bpm">
+    Click <input type="checkbox" name="sound" value="">
+    Tourne <input type="number" value="1" id="track">
+
+    <button	id="start">Start</button>
+    <button	id="stop">Stop</button>
+  </div>
+
+
+  <div id="clicks">
+    <span class="click">
+      <span class="led"></span>
+    </span>
+    <span class="click">
+      <span class="led"></span>
+    </span>
+    <span class="click">
+      <span class="led"></span>
+    </span>
+    <span class="click">
+      <span class="led"></span>
+    </span>
+  </div>
+  <div id="current"></div>
+  <div id="steps"></div>
+  <div id="time"></div>
+</body>
+</html>
